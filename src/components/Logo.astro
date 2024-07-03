@@ -1,0 +1,37 @@
+---
+const { name } = Astro.props;
+---
+
+<a href="/" class="profile">
+  <div class="img__container">JB</div>
+  <h3 class="color__gradiente header__title">
+    {name}
+  </h3>
+</a>
+
+<style>
+  .img__container {
+    border-radius: 8px;
+    overflow: hidden;
+    transition: 0.35s transform;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+    background: linear-gradient(to bottom left, var(--primary-10), var(--primary-20));
+  }
+
+  .img__container:hover {
+    transform: scale(1.1);
+  }
+
+  .profile {
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    gap: 1.5rem;
+  }
+</style>

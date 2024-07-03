@@ -1,0 +1,73 @@
+---
+const {width, height} = Astro.props;
+const socialLinks = [
+	{
+		title: 'LinkedIn',
+		icon: 'simple-icons:linkedin',
+		href: 'https://www.linkedin.com/in/jonas-batista-1ba7bb187/',
+
+	},
+	{
+		title: 'Instagram',
+		icon: 'mdi:instagram',
+		href: 'https://www.instagram.com/batista_sj/',
+
+	},
+
+	{
+		title: 'CV',
+		icon: 'tabler:file-cv',
+		href: 'https://docs.google.com/document/d/1lkTEg8jJhDhrPwAkG6nuU0ho6C5kL29vhLXd0JrhspI/edit?usp=sharing',
+
+	},
+];
+---
+
+<div class="icons__container">
+    {
+        socialLinks.map((data) => (
+            <a
+                href={data.href}
+                target="_blank"
+                rel="nofollow noreferrer noopener"
+            >
+                <iconify-icon
+					class=`skill__icon ${data.title}`
+                    icon={data.icon}
+                    width={width}
+                    height={height}
+                />
+            </a>
+        ))
+    }
+</div>
+
+<style>
+	.icons__container {
+		display: flex;
+    width: 29.6rem;
+    /* padding: 1.3rem 4rem; */
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 2rem;
+}
+.skill__icon{
+	color:#dcd8fc;
+}
+
+	.LinkedIn:hover{
+		color: #0e76a8;
+	}
+	.Instagram:hover{
+	color: #E1306C;
+	}
+	.Tiwtter:hover{
+	color: #0aa5f6;
+	}
+	.CV:hover{
+		color:#8e64ff;
+	}
+
+
+
+</style>
