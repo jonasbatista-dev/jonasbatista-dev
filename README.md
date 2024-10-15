@@ -20,6 +20,7 @@ on JavaScript ecosystem such as React, and React Native. Seeking every day to le
     <li> :mortar_board: Certified <b>Javascript</b> by Udemy</li>
     <li> :mortar_board: Certified <b>React</b> by Udemy</li>
     <li> :mortar_board: Studying <b>NodeJS(MySQL, MongoDB, Design Pattern MVC, Express, API)</b> by Udemy</li>
+    <li> :mortar_board: Currently pursuing a Bachelor's degree in <b>Systems Analysis and Development</b></li>
   </ul>
 
 ### Find me here:
