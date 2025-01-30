@@ -6,7 +6,7 @@ on JavaScript ecosystem such as React, and React Native. Seeking every day to le
 
 ### My CV Online:
 
-[Download Now](https://jonassilva-dev.github.io/)
+[Download Now](https://jonasbatista.vercel.app/)
 
 <img align="right" alt="MERN" src="./mern-dev.png" width="350" />
 
